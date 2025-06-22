@@ -2,6 +2,8 @@
 
 The code corresponds to the paper [https://ieeexplore.ieee.org/document/10999054](https://ieeexplore.ieee.org/document/10999054)
 
+X. Cao, W. Tan, Q. Gao, Z. Hu and C. Li, "IntML-KNN: A Few-Shot Radio Frequency Fingerprint Identification Scheme for LoRa Devices," in IEEE Signal Processing Letters, vol. 32, pp. 2259-2263, 2025, doi: 10.1109/LSP.2025.3569211. 
+
 # Requirement
 
 python == 3.6.13
@@ -23,6 +25,9 @@ seaborn == 0.11.1
 tensorflow == 2.6.2
 
 torch == 1.10.2
+
+# Abstract
+Deep learning (DL) is widely used in radio frequency fingerprint identification (RFFI). However, in few-shot case, traditional DL-based RFFI need to construct auxiliary dataset to realize radio frequency fingerprint identification. To address this issue, we propose a few-shot RFFI (FS-RFFI) method based on interpolation metric learning and KNN (IntML-KNN). Specifically, the method first extends the dataset with data augmentation, and CutMix interpolation. Secondly, combining with metric learning to enhance the generalization capacity of the model. Finally, KNN algorithm is designed to realize device classification and detection. The proposed IntML-KNN method is verified on the commercial available LoRa dataset. The experimental results indicate that the proposed scheme exhibits strong classification and generalization performance in FS-RFFI. Meanwhile, the identification rate of the proposed IntML-KNN reaches 97.00% with only 10% samples.
 
 # Framework of IntML-KNN
 ![Alt](https://i-blog.csdnimg.cn/direct/cd30c9f3332f4d309299130647965bc9.png#pic_center)
