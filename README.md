@@ -1,11 +1,11 @@
 ﻿# IntML-KNN: A Few-Shot Radio Frequency Fingerprint Identification Scheme for Lora Devices
 
+# Paper
 The code corresponds to the paper [https://ieeexplore.ieee.org/document/10999054](https://ieeexplore.ieee.org/document/10999054)
 
 X. Cao, W. Tan, Q. Gao, Z. Hu and C. Li, "IntML-KNN: A Few-Shot Radio Frequency Fingerprint Identification Scheme for LoRa Devices," in IEEE Signal Processing Letters, vol. 32, pp. 2259-2263, 2025, doi: 10.1109/LSP.2025.3569211. 
 
 # Requirement
-
 python == 3.6.13
 
 h5py == 3.1.0
