@@ -5,14 +5,23 @@ The code corresponds to the paper [https://ieeexplore.ieee.org/document/10999054
 # Requirement
 
 python == 3.6.13
+
 h5py == 3.1.0
+
 keras == 2.6.0
+
 matplotlib == 3.3.4
+
 numpy == 1.19.2
+
 scikit_learn == 1.6.1
+
 scipy == 1.5.2
+
 seaborn == 0.11.1
+
 tensorflow == 2.6.2
+
 torch == 1.10.2
 
 # Framework of IntML-KNN
