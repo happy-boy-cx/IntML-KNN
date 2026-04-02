@@ -299,7 +299,7 @@ if __name__ == '__main__':
         # Train an RFF extractor.
         feature_extractor = train_feature_extractor()
         # Save the trained model.
-        feature_extractor.save('Extractor_small_15%-2.h5')
+        feature_extractor.save('Extractor_small_5%.h5')
         
     
     elif run_for == 'Classification':
