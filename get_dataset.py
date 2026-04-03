@@ -57,7 +57,7 @@ def load_train_dataset_k_shot(
         pkt_range = np.arange(0,1000, dtype = int)
                             ):
     num=10
-    k_shot=50
+    k_shot=100
     LoadDatasetObj = LoadDataset()
 
     # Load preamble IQ samples and labels.
